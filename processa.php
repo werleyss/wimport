@@ -6,11 +6,11 @@ $arquivo_tmp = $_FILES['arquivo']['tmp_name'];
 //var_dump($arquivo_tmp);
 
 $dados = file($arquivo_tmp);
-var_dump($dados);
+//var_dump($dados);
 
-//$i = 0;
+$i = 0;
 
-/*foreach($dados as $linha){
+foreach($dados as $linha){
     
     $linha = trim($linha);
     $valor = explode(',', $linha);
@@ -25,6 +25,6 @@ var_dump($dados);
     }
     
     
-}*/
+}
 
 ?>
