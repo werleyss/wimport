@@ -1,7 +1,7 @@
 <?php include_once "header.php";?>
         
         <div class="container">
-            <h1 class="h1">Importação de arquivo para banco de dados</h1> 
+            <h3 >Importação de arquivo para banco de dados</h3> 
             <form method="POST" enctype="multipart/form-data" action="processa.php">
                 <div class="form-group">
                     <label class="h4">Arquivo</label>
