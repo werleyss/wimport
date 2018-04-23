@@ -1,2 +1,2 @@
 # wimport
-Importação de XML para o banco de dados
+Importação de TXT para o banco de dados
